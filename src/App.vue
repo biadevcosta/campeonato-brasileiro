@@ -1,11 +1,6 @@
 <template>
   <v-app>
-    <v-card
-    class="mx-auto overflow-hidden"
-    height="100%"
-    width="100%"
-  >
-    <v-app-bar
+    <v-app-bar app
       color="#66BB6A"
       dark
     >
@@ -19,9 +14,8 @@
       absolute
       temporary
     >
-      <v-list
-        nav
-        dense
+      <v-list 
+        nav 
       >
         <v-list-item-group
           v-model="group"
@@ -43,7 +37,6 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-  </v-card>
     <v-main>
       <v-container>
           <MeuInicio/>
