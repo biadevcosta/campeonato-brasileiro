@@ -11,7 +11,8 @@
 
 <script>
 export default {
-    name: 'MeuInicio'
+    name: 'MeuInicio',
+
 }
 </script>
 
