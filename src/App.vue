@@ -45,19 +45,21 @@
     </v-navigation-drawer>
   </v-card>
     <v-main>
-      <!--<HelloWorld/>-->
+      <v-container>
+          <MeuInicio/>
+         </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld';
+import MeuInicio from './components/MeuInicio.vue';
 
 export default {
   name: 'App',
 
   components: {
-    //HelloWorld,
+    MeuInicio,
   },
 
   data: () => ({
